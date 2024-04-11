@@ -102,9 +102,10 @@ conda activate demo
 python /root/demo/cli_demo.py
 ```
 
-等待运行完成即可看到下发作业内容
+等待运行完成即可看到下方作业内容
 
 # 作业
 
 - 使用 InternLM2-Chat-1.8B 模型生成 300 字的小故事
-[](/docs/note2.jpg)
+
+<img style="width: 100%" src="./docs/note2.jpg" alt="微信" />
