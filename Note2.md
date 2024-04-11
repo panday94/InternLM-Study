@@ -108,4 +108,4 @@ python /root/demo/cli_demo.py
 
 - 使用 InternLM2-Chat-1.8B 模型生成 300 字的小故事
 
-<img style="width: 100%" src="./docs/note2.jpg" alt="微信" />
+![cover](./docs/note2/work.jpg)

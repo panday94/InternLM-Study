@@ -107,4 +107,4 @@ python /root/demo/cli_demo.py
 # 作业
 
 - 使用 InternLM2-Chat-1.8B 模型生成 300 字的小故事
-[](/docs/note2.jpg)
+[](/docs/note2/work.jpg)
