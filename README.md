@@ -1,4 +1,9 @@
+<div align="center">
+    <img src="./docs//logo.svg" width="200"/>
+</div>
+
 # 书生·浦语大模型
+
 
 > 最新更新：2024年4月11日
 
@@ -30,6 +35,9 @@ ModelScope：[点击传送](https://modelscope.cn/organization/Shanghai_AI_Labor
 [视频地址](https://www.bilibili.com/video/BV1QA4m1F7t4/)
 [文档地址](https://github.com/InternLM/Tutorial/blob/camp2/huixiangdou/readme.md)
 [笔记&作业地址](Note3)
+  - 在[茴香豆 Web 版](https://openxlab.org.cn/apps/detail/tpoisonooo/huixiangdou-web)中创建自己的知识问答助手
+  - 本地部署“苘香豆"web版（可选）
+  - 在 InternLM Studio 上部署茴香豆技术助手
 - 第4节：XTuner 微调 LLM:1.8B、多模态、Agent [视频地址](https://github.com/InternLM/InternLM/blob/main/docs/zh-cn/1-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B)
 - 第5节：LMDeploy 量化部署 LLM 实践 [视频地址]()
 - 第6节：Lagent & AgentLego 智能体应用搭建 [视频地址]()
