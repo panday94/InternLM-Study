@@ -27,19 +27,38 @@ ModelScope：[点击传送](https://modelscope.cn/organization/Shanghai_AI_Labor
 - 第1节：书生·浦语大模型全链路开源体系 
 [视频地址](https://www.bilibili.com/video/BV1Vx421X72D/)
 [笔记地址](Note1)
+
 - 第2节：轻松玩转书生·浦语大模型趣味 Demo 
 [视频地址](https://www.bilibili.com/video/BV1AH4y1H78d/) 
 [文档地址](https://github.com/InternLM/Tutorial/blob/camp2/helloworld/hello_world.md)
 [笔记&作业地址](Note2)
+
 - 第3节：“苘香豆":零代码搭建你的 RAG 智能助理
 [视频地址](https://www.bilibili.com/video/BV1QA4m1F7t4/)
 [文档地址](https://github.com/InternLM/Tutorial/blob/camp2/huixiangdou/readme.md)
 [笔记&作业地址](Note3)
   - 在[茴香豆 Web 版](https://openxlab.org.cn/apps/detail/tpoisonooo/huixiangdou-web)中创建自己的知识问答助手
+  - 本地部署“苘香豆"web版（可选未完成）
+  - 在 InternLM Studio 上部署茴香豆技术助手
+  - 茴香豆进阶（选做）
+
+- 第4节：XTuner 微调 LLM:1.8B、多模态、Agent
+  [视频地址](https://b23.tv/QUhT6ni)
+  [文档地址](https://github.com/InternLM/Tutorial/blob/camp2/xtuner/readme.md)
+  [笔记&作业地址](Note4)
+  - XTuner 微调个人小助手认知
   - 本地部署“苘香豆"web版（可选）
   - 在 InternLM Studio 上部署茴香豆技术助手
-- 第4节：XTuner 微调 LLM:1.8B、多模态、Agent [视频地址](https://github.com/InternLM/InternLM/blob/main/docs/zh-cn/1-%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B)
-- 第5节：LMDeploy 量化部署 LLM 实践 [视频地址]()
+
+- 第5节：LMDeploy 量化部署 LLM 实践
+  [视频地址](https://www.bilibili.com/video/BV1tr421x75B/)
+  [文档地址](https://github.com/InternLM/Tutorial/blob/camp2/lmdeploy/README.md)
+  [笔记&作业地址](Note5)
+  - 在[茴香豆 Web 版](https://openxlab.org.cn/apps/detail/tpoisonooo/huixiangdou-web)中创建自己的知识问答助手
+  - 本地部署“苘香豆"web版（可选）
+  - 在 InternLM Studio 上部署茴香豆技术助手
+
+
 - 第6节：Lagent & AgentLego 智能体应用搭建 [视频地址]()
 - 第7节：OpenCompass大模型评测实战 [视频地址]()
 - 第8节：大模型微调数据构造 [视频地址]()

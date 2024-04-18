@@ -111,7 +111,7 @@ unset COOKIE_SECURE
 ## 心得 
 TODO
 
-# 2.在 InternLM Studio 上部署茴香豆技术助手
+# 在 InternLM Studio 上部署茴香豆技术助手
 [原教程链接](https://github.com/InternLM/Tutorial/blob/camp2/huixiangdou/readme.md)
 
 ## 安装conda环境
@@ -308,8 +308,9 @@ save_path = "logs/work.txt"
 ![cover](./docs/note3/11.jpg)
 ![cover](./docs/note3/12.jpg)
 
-## 茴香豆进阶（选做）
+# 茴香豆进阶（选做）
 > 加入网络搜索和使用远程模型可查看原教程[教程地址](https://github.com/InternLM/Tutorial/blob/camp2/huixiangdou/readme.md)
+
 ## 利用 Gradio 搭建网页 Demo
 - 安装安装 Gradio 依赖组件
 ```angular2html
@@ -340,4 +341,5 @@ ssh -CNg -L 7860:127.0.0.1:7860 root@ssh.intern-ai.org.cn -p 43501
 
 # 资源
 [技术报告](https://arxiv.org/abs/2401.08772)
+
 [茴香豆混合模型技术报告](https://arxiv.org/abs/2401.08772)
