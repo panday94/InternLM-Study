@@ -34,6 +34,7 @@ ModelScope：[点击传送](https://modelscope.cn/organization/Shanghai_AI_Labor
 [笔记&作业地址](Note2)
 
 - 第3节：“苘香豆":零代码搭建你的 RAG 智能助理
+[项目地址](https://github.com/InternLM/HuixiangDou)
 [视频地址](https://www.bilibili.com/video/BV1QA4m1F7t4/)
 [文档地址](https://github.com/InternLM/Tutorial/blob/camp2/huixiangdou/readme.md)
 [笔记&作业地址](Note3)
@@ -43,24 +44,61 @@ ModelScope：[点击传送](https://modelscope.cn/organization/Shanghai_AI_Labor
   - 茴香豆进阶（选做）
 
 - 第4节：XTuner 微调 LLM:1.8B、多模态、Agent
+  [项目地址](https://github.com/InternLM/XTuner)
   [视频地址](https://b23.tv/QUhT6ni)
   [文档地址](https://github.com/InternLM/Tutorial/blob/camp2/xtuner/readme.md)
   [笔记&作业地址](Note4)
   - XTuner 微调个人小助手认知
-  - 本地部署“苘香豆"web版（可选）
-  - 在 InternLM Studio 上部署茴香豆技术助手
+    - 数据集准备
+    - 模型准备
+    - 配置文件选择
+    - 模型训练
+    - 模型转换、整合、测试及部署
 
 - 第5节：LMDeploy 量化部署 LLM 实践
+  [项目地址](https://github.com/InternLM/LMDeploy)
   [视频地址](https://www.bilibili.com/video/BV1tr421x75B/)
   [文档地址](https://github.com/InternLM/Tutorial/blob/camp2/lmdeploy/README.md)
   [笔记&作业地址](Note5)
-  - 在[茴香豆 Web 版](https://openxlab.org.cn/apps/detail/tpoisonooo/huixiangdou-web)中创建自己的知识问答助手
-  - 本地部署“苘香豆"web版（可选）
-  - 在 InternLM Studio 上部署茴香豆技术助手
+  - 环境部署
+  - LMDeploy模型对话
+  - LMDeploy模型量化(lite)
+  - LMDeploy服务(serve)
+  - Python代码集成
+  - 使用LMDeploy运行视觉多模态大模型llava(拓展)
 
+- 第6节：Lagent & AgentLego 智能体应用搭建
+  [项目地址](https://github.com/InternLM/Lagent)
+  [项目地址](https://github.com/InternLM/AgentLego)
+  [视频地址](https://www.bilibili.com/video/BV1Xt4217728/)
+  [文档地址](https://github.com/InternLM/Tutorial/tree/camp2/agent)
+  [笔记&作业地址](Note6)
+  - 概述
+  - Lagent：轻量级智能体框架
+  - AgentLego：组装智能体“乐高”
+  - Agent 工具能力微调
 
-- 第6节：Lagent & AgentLego 智能体应用搭建 [视频地址]()
-- 第7节：OpenCompass大模型评测实战 [视频地址]()
+- 第7节：OpenCompass大模型评测实战
+  [项目地址](https://github.com/open-compass/opencompass)
+  [视频地址](https://www.bilibili.com/video/BV1Pm41127jU/)
+  [文档地址](https://github.com/InternLM/Tutorial/blob/camp2/opencompass/readme.md)
+  [笔记&作业地址](Note7)
+
 - 第8节：大模型微调数据构造 [视频地址]()
 - 第9节：平台工具类补充课程 [视频地址]()
 
+# 优秀项目
+- 第二期书生浦语大模型实战营第三节笔记整理【茴香豆与RAG 智能助理】【助教视角】 - 知乎
+https://zhuanlan.zhihu.com/p/691906701?
+
+- 第二期书生浦语大模型实战营第三节笔记【茴香豆与RAG 智能助理】 - 知乎
+https://zhuanlan.zhihu.com/p/692030192?
+
+- [HoK][RAG]基于茴香豆Web知识库的王者荣耀英雄故事助手[书生·浦语大模型实战营第二期第三课作业] - 知乎
+https://zhuanlan.zhihu.com/p/691827925
+
+- 书生·浦语大模型实战营第二期资源汇总【助教视角】 - 知乎
+https://zhuanlan.zhihu.com/p/691047729?
+
+- 使用XTuner微调llama3
+https://github.com/SmartFlowAI/Llama3-XTuner-CN/
