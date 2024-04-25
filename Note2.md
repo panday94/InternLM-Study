@@ -1,5 +1,7 @@
 # 第2节：轻松玩转书生·浦语大模型趣味 Demo 
 
+[GitHub](https://github.com/InternLM/InternLM)
+
 ## 笔记
 ### 安装环境
 - 安装conda环境

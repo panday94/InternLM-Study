@@ -4,8 +4,7 @@
 
 # 书生·浦语大模型
 
-
-> 最新更新：2024年4月11日
+> 最新更新：2024年4月25日
 
 > 该项目为记录、整理、分享学习书生·浦语大模型大模型相关知识，如有问题欢迎指出。
 
@@ -21,14 +20,17 @@ HuggingFace：[点击传送](https://huggingface.co/internlm)
 
 ModelScope：[点击传送](https://modelscope.cn/organization/Shanghai_AI_Laboratory)
 
+OpenXLab 部署教程：[点击传送](https://github.com/InternLM/Tutorial/tree/camp2/tools/openxlab-deploy)
 
 # 学习课程
+> 以下学习课程围绕官方GitHub仓库进行学习，学习内容如下。后期会更新自己在本地使用LMDeploy部署模型及使用XTuner微调模型的学习笔记，也将会利用LMDeploy提供的服务API，将本地模型结合到Java开发的[ChatMASTER](https://gitee.com/panday94/chat-master)大模型对话中，该项目已整合ChatGPT、文心一言、智谱清言、讯飞星火及月之暗面等接口，欢迎大家star。
 
 - 第1节：书生·浦语大模型全链路开源体系 
 [视频地址](https://www.bilibili.com/video/BV1Vx421X72D/)
 [笔记地址](Note1)
 
 - 第2节：轻松玩转书生·浦语大模型趣味 Demo 
+[项目地址](https://github.com/InternLM/InternLM)
 [视频地址](https://www.bilibili.com/video/BV1AH4y1H78d/) 
 [文档地址](https://github.com/InternLM/Tutorial/blob/camp2/helloworld/hello_world.md)
 [笔记&作业地址](Note2)
@@ -68,8 +70,8 @@ ModelScope：[点击传送](https://modelscope.cn/organization/Shanghai_AI_Labor
   - 使用LMDeploy运行视觉多模态大模型llava(拓展)
 
 - 第6节：Lagent & AgentLego 智能体应用搭建
-  [项目地址](https://github.com/InternLM/Lagent)
-  [项目地址](https://github.com/InternLM/AgentLego)
+  [Lagent项目地址](https://github.com/InternLM/Lagent)
+  [AgentLego项目地址](https://github.com/InternLM/AgentLego)
   [视频地址](https://www.bilibili.com/video/BV1Xt4217728/)
   [文档地址](https://github.com/InternLM/Tutorial/tree/camp2/agent)
   [笔记&作业地址](Note6)
@@ -87,7 +89,7 @@ ModelScope：[点击传送](https://modelscope.cn/organization/Shanghai_AI_Labor
 - 第8节：大模型微调数据构造 [视频地址]()
 - 第9节：平台工具类补充课程 [视频地址]()
 
-# 优秀项目
+# 优秀项目学习
 - 第二期书生浦语大模型实战营第三节笔记整理【茴香豆与RAG 智能助理】【助教视角】 - 知乎
 https://zhuanlan.zhihu.com/p/691906701?
 

@@ -307,6 +307,86 @@ python /root/pipeline_kv.py
 ```
 
 # 使用LMDeploy运行视觉多模态大模型llava（拓展）
+> 在这一步我根据要求切换为30%的`InternStudio`开发机
+
+- 激活conda环境
+```shell
+conda activate lmdeploy
+```
+- 安装llava依赖库。
+```shell
+pip install git+https://github.com/haotian-liu/LLaVA.git@4e2277a060da264c4f21b364c867cc622c945874
+```
+
+## 使用命令行运行
+- 新建一个python文件，比如`pipeline_llava.py`。
+```shell
+touch /root/pipeline_llava.py
+```
+
+- 打开pipeline_llava.py，填入内容如下： 该内容是使用llava模型进行图片描述的代码。
+```shell
+from lmdeploy.vl import load_image
+from lmdeploy import pipeline, TurbomindEngineConfig
+
+
+backend_config = TurbomindEngineConfig(session_len=8192) # 图片分辨率较高时请调高session_len
+# pipe = pipeline('liuhaotian/llava-v1.6-vicuna-7b', backend_config=backend_config) 非开发机运行此命令
+pipe = pipeline('/share/new_models/liuhaotian/llava-v1.6-vicuna-7b', backend_config=backend_config)
+
+image = load_image('https://raw.githubusercontent.com/open-mmlab/mmdeploy/main/tests/data/tiger.jpeg')
+response = pipe(('describe this image', image))
+print(response)
+```
+
+- 运行pipeline。
+```shell
+python /root/pipeline_llava.py
+```
+
+- 运行结果如下：
+![img.png](docs/note5/4.png)
+
+
+## 使用Gradio运行llava模型
+
+- 新建python文件gradio_llava.py。
+```shell
+touch /root/gradio_llava.py
+```
+
+- 填入内容
+```shell
+import gradio as gr
+from lmdeploy import pipeline, TurbomindEngineConfig
+
+
+backend_config = TurbomindEngineConfig(session_len=8192) # 图片分辨率较高时请调高session_len
+# pipe = pipeline('liuhaotian/llava-v1.6-vicuna-7b', backend_config=backend_config) 非开发机运行此命令
+pipe = pipeline('/share/new_models/liuhaotian/llava-v1.6-vicuna-7b', backend_config=backend_config)
+
+def model(image, text):
+    if image is None:
+        return [(text, "请上传一张图片。")]
+    else:
+        response = pipe((text, image)).text
+        return [(text, response)]
+
+demo = gr.Interface(fn=model, inputs=[gr.Image(type="pil"), gr.Textbox()], outputs=gr.Chatbot())
+demo.launch()   
+```
+- 运行python程序
+```shell
+python /root/gradio_llava.py
+```
+
+- 通过ssh转发7860端口到本机
+```shell
+ssh -CNg -L 7860:127.0.0.1:7860 root@ssh.intern-ai.org.cn -p <你的ssh端口>
+```
+
+- 通过浏览器访问`http://127.0.0.1:7860`，结果如下：
+![img.png](docs/note5/5.png)
 
 # 总结
 

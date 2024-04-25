@@ -1,7 +1,7 @@
 # 第3节：“苘香豆":零代码搭建你的 RAG 智能助理
-> [苘香豆web端地址](https://openxlab.org.cn/apps/detail/tpoisonooo/huixiangdou-web)
+[苘香豆web端地址](https://openxlab.org.cn/apps/detail/tpoisonooo/huixiangdou-web)
 
-> [苘香豆GitHub](https://github.com/InternLM/huixiangdou)
+[苘香豆GitHub](https://github.com/InternLM/huixiangdou)
 
 # 介绍
 
