@@ -20,6 +20,8 @@ HuggingFace：[点击传送](https://huggingface.co/internlm)
 
 ModelScope：[点击传送](https://modelscope.cn/organization/Shanghai_AI_Laboratory)
 
+飞书：[点击传送](https://aicarrier.feishu.cn/wiki/RPyhwV7GxiSyv7k1M5Mc9nrRnbd)
+
 OpenXLab 部署教程：[点击传送](https://github.com/InternLM/Tutorial/tree/camp2/tools/openxlab-deploy)
 
 # 学习课程
